@@ -1,5 +1,5 @@
 
-# Example peachpie web project for .NET Core
+# Test small Bitrix compatibility layer
 
 - Install for Windows https://www.microsoft.com/net/core#windowscmd (or Linux)
 
