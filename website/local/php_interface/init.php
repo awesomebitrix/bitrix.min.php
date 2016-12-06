@@ -13,18 +13,17 @@ namespace HelloWorld {
 	echo "\n";
 
 	function TasksSelect() {
-		/*
-		$db = db();
 
-		$res = $db->query('SELECT * FROM db');
-		$result = array();
-		foreach ($res->fetchAll() as $row) {
-			$result[] = array(
-				'name' => $row['Db'],
-				'date' => date('Y-m-d H:i:s')
-			);
-		}
-		*/
+		//$db = db();
+		//$res = $db->query('SELECT * FROM db');
+		//$result = array();
+		//foreach ($res->fetchAll() as $row) {
+		//	$result[] = array(
+		//		'name' => $row['Db'],
+		//		'date' => date('Y-m-d H:i:s')
+		//	);
+		//}
+
 		return [
 			[
 				"ID" => 1,

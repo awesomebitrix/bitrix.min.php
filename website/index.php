@@ -1,5 +1,6 @@
-<?php
-$_SERVER["DOCUMENT_ROOT"] = "."; // FIX
+<?php  // FIX
+//$_SERVER["DOCUMENT_ROOT"] = ".";
+/*
 ?><?php require $_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php" ?>
 <?php
 //$APPLICATION->SetTitle("Главная");
@@ -24,4 +25,4 @@ Taks list example:
 
 ?>
 
-<?php require $_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php" ?>
+<?php require $_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php" */ ?>

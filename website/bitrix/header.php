@@ -1,4 +1,4 @@
-<?php
+<?php /*
 
 $s = microtime(true);
 
@@ -24,3 +24,5 @@ $page = [
 ];
 
 include $page["template"] . "header.php";
+
+*/

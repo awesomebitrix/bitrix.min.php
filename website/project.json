@@ -7,7 +7,7 @@
   },
   "buildOptions": {
     "compilerName": "php",
-    "compile": "**\\*.php",
+    "compile": "**\\index.php",
     "debugType": "portable"
   },
   "frameworks": {
