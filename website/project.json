@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "compilerName": "php",
+    "compile": "**\\*.php",
+    "emitEntryPoint": true,
+    "debugType": "portable"
+  },
+  "dependencies": {
+  	"Peachpie.App": "0.3.0-*"
+	},
+  "tools": {
+  	"Peachpie.Compiler.Tools": "0.3.0-*"
+	},
+  "frameworks": {
+    "netcoreapp1.1": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+        	"type": "platform",
+        	"version": "1.1.0"
+       	}
+      }
+    }
+  }
+}
