@@ -1,49 +1,25 @@
+<?php require $_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php" ?>
 <?php
+//$APPLICATION->SetTitle("Главная");
 
-namespace HelloWorld;
+echo "Hello World!\n\n";
+echo rand(1, 1000) . "\n\n";
 
-$s = microtime(true);
+?>
 
-//var_dump(defined("__DIR__"));
-//var_dump(defined("__FILE__"));
-//var_dump(__DIR__);
+---
 
-require ".init.php";
+Taks list example:
 
-function TasksSelect() {
-	return [
-		[
-			"ID" => 1,
-			"NAME" => "Task 1",
-			"TIME" => "30",
-			"STATUS" => 1,
-		],
-		[
-			"ID" => 2,
-			"NAME" => "Task 2",
-			"TIME" => "60",
-			"STATUS" => 2,
-		],
-		[
-			"ID" => 3,
-			"NAME" => "Task 3",
-			"TIME" => "240",
-			"STATUS" => 5,
-		],
-	];
-}
+<?php foreach ($page["tasks"] as $task) { ?>
 
-// view data
-$page = [
-	"template" => "./templates/default/",
-	"view" => ".view/index.php",
-	"tasks" => TasksSelect()
-];
+	Task: [<?= $task["STATUS"] == 5? "x" : "-"?>] <?= $task["NAME"]?> (<?= $task["ID"]?>)
+		Elapsed time, hours: <?= $task["TIME"] / 60 ?>
 
-// view render
-include $page["template"] . "header.php";
-include $page["view"];
-include $page["template"] . "footer.php";
+<?php } ?>
 
-echo "Time: " . (microtime(true) - $s);
-echo "\n";
+---
+
+?>
+
+<?php require $_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php" ?>
