@@ -26,3 +26,5 @@ $page = [
 include $page["template"] . "header.php";
 
 */
+
+echo "init header...";
