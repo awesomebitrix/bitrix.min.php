@@ -11,4 +11,4 @@ dotnet restore
 dotnet run -p app
 ```
 
-- Open url in browser http://localhost:5004/index.php
+- Open url in browser: http://localhost:5004/index.php
