@@ -1,4 +1,6 @@
-<?php require $_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php" ?>
+<?php
+$_SERVER["DOCUMENT_ROOT"] = "."; // FIX
+?><?php require $_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php" ?>
 <?php
 //$APPLICATION->SetTitle("Главная");
 
