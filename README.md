@@ -1,24 +1,14 @@
 
-# Test small Bitrix compatibility layer
+# Experimental project for small Bitrix compatibility layer
+
+## How to run
 
 - Install for Windows https://www.microsoft.com/net/core#windowscmd (or Linux)
 
-- Goto server project directory
+- Run commands in terminal
 ```
-    cd webserver
-```
-
-- Run commands in project directory
-```
-    dotnet restore
+dotnet restore
+dotnet run -p app
 ```
 
-- Build and run
-```
-    dotnet run
-```
-
-- Open url in browser
-```
-    http://localhost:5004/index.php
-```
+- Open url in browser http://localhost:5004/index.php
