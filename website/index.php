@@ -1,5 +1,5 @@
-<?php require $_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php" ?>
-<?php //require "./bitrix/header.php" ?>
+<?php require $_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php" // dynamic path not work ?>
+<?php //require "./bitrix/header.php" // static path work ?>
 <?php
 
 /*
