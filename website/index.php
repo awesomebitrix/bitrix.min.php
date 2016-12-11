@@ -1,5 +1,7 @@
 <?php
 
+var_dump($_SERVER["DOCUMENT_ROOT"]);
+
 echo "1\n";
 $path = "" . "bitrix/header.php";
 include $path;
