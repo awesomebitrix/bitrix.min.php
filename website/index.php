@@ -2,6 +2,9 @@
 
 var_dump($_SERVER["DOCUMENT_ROOT"]);
 
+// problem with full path
+include $_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php";
+
 echo "1\n";
 $path = "" . "bitrix/header.php";
 include $path;
