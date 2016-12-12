@@ -10,6 +10,12 @@
     "compile": [
       "**\\index.php",
       "**\\bitrix\\header.php",
+      "**\\bitrix\\footer.php",
+      "**\\bitrix\\php_interface\\init.php",
+      "**\\bitrix\\modules\\main\\include.php",
+      "**\\bitrix\\modules\\hello.world\\include.php",
+      "**\\bitrix\\templates\\.default\\header.php",
+      "**\\bitrix\\templates\\.default\\footer.php",
     ],
     "debugType": "portable"
   },

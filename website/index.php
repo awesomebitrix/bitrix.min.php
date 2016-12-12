@@ -1,31 +1,7 @@
+<?php require "bitrix/header.php" ?>
 <?php
 
-var_dump($_SERVER["DOCUMENT_ROOT"]);
-
-// problem with full path
-include $_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php";
-
-echo "1\n";
-$path = "" . "bitrix/header.php";
-include $path;
-
-echo "2\n";
-$path2 = "bitrix/header.php";
-include $path2;
-
-echo "3\n";
-$path3 = "";
-include $path3 . "bitrix/header.php";
-
-echo "4\n";
-// works only this
-include "bitrix/header.php";
-
-//$path = substr($_SERVER["DOCUMENT_ROOT"], 0, -1) . "/bitrix/header.php";
-?>
-
-<?php //require "./bitrix/header.php" // static path work ?>
-<?php
+// $_SERVER["DOCUMENT_ROOT"] .
 
 /*
 //$APPLICATION->SetTitle("Главная");
@@ -47,7 +23,7 @@ Taks list example:
 <?php } ?>
 
 ---
-
+*/
 ?>
 
-<?php require $_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php" */ ?>
+<?php require "bitrix/footer.php" ?>

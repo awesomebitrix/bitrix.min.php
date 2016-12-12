@@ -1,10 +1,6 @@
-<?php /*
+<?php
 
-echo "Time: " . (microtime(true) - $s);
+echo "Time: " . (microtime(true) - $start_time);
 echo "\n";
 
-?>
-
-<?php include $page["template"] . "footer.php" ?>
-
-*/
+include "bitrix/templates/.default/header.php";

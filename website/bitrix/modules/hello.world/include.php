@@ -1,5 +1,8 @@
 <?php
 
+var_dump("hello.world");
+
+/*
 namespace HelloWorld;
 
 const ID = "hello.world";

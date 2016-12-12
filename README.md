@@ -1,6 +1,10 @@
 
 # Experimental project for small Bitrix compatibility layer
 
+## Need to replace
+
+`$_SERVER["DOCUMENT_ROOT"] . "/path` -> `"path`
+
 ## How to run
 
 - Install for Windows https://www.microsoft.com/net/core#windowscmd (or Linux)
