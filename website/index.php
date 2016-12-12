@@ -1,14 +1,14 @@
 <?php require "bitrix/header.php" ?>
 <?php
 
-// $_SERVER["DOCUMENT_ROOT"] .
-
-/*
 //$APPLICATION->SetTitle("Главная");
+
+var_dump($_SERVER["DOCUMENT_ROOT"]);
 
 echo "Hello World!\n\n";
 echo rand(1, 1000) . "\n\n";
 
+/*
 ?>
 
 ---
