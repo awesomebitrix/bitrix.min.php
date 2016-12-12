@@ -6,6 +6,7 @@ $start_time = microtime(true);
 
 include "bitrix/modules/main/include.php";
 
+// TODO auto generated modules list
 include "local/modules/hello.world/include.php";
 // ...
 
