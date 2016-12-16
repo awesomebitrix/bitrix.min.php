@@ -5,7 +5,7 @@
 
 `$_SERVER["DOCUMENT_ROOT"] . "/path` -> `"path`
 
-## How to run
+## How to run on .NET Core
 
 - Install for Windows https://www.microsoft.com/net/core#windowscmd (or Linux)
 
