@@ -7,6 +7,7 @@
   },
   "buildOptions": {
     "compilerName": "php",
+    //"compile": "**\\*.php",
     "compile": [
       "**\\index.php",
       "**\\bitrix\\header.php",
