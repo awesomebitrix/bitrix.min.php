@@ -1,6 +1,5 @@
 <?php
 
-/*
 return [
 	"host" => "localhost",
 	"dbname" => "test",
@@ -9,4 +8,3 @@ return [
 	"password" => "root",
 	"encoding" => "utf8",
 ];
-*/

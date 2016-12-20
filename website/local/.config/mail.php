@@ -1,6 +1,5 @@
 <?php
 
-/*
 return [
   "smtp" => [
 			//"secure" => "SSL",
@@ -12,4 +11,3 @@ return [
   "from" => "email@test.com",
   "fromName" => "User Name",
 ];
-*/
