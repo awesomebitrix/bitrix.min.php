@@ -7,17 +7,7 @@
   },
   "buildOptions": {
     "compilerName": "php",
-    //"compile": "**\\*.php",
-    "compile": [
-      "**\\index.php",
-      "**\\bitrix\\header.php",
-      "**\\bitrix\\footer.php",
-      "**\\bitrix\\modules\\main\\include.php",
-      "**\\local\\php_interface\\init.php",
-      "**\\local\\modules\\hello.world\\include.php",
-      "**\\local\\templates\\.default\\header.php",
-      "**\\local\\templates\\.default\\footer.php",
-    ],
+    "compile": "**\\*.php",
     "debugType": "portable"
   },
   "frameworks": {

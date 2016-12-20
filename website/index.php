@@ -1,12 +1,14 @@
-<?php require "bitrix/header.php" ?>
+<?php require $_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php" ?>
 <?php
 
 //$APPLICATION->SetTitle("Главная");
 
-var_dump($_SERVER["DOCUMENT_ROOT"]);
+echo "<pre>";
+print_r($_SERVER);
+echo "</pre>";
 
-echo "Hello World!\n\n";
-echo rand(1, 1000) . "\n\n";
+//echo "Hello World!\n\n";
+//echo rand(1, 1000) . "\n\n";
 
 /*
 ?>
@@ -26,4 +28,4 @@ Taks list example:
 */
 ?>
 
-<?php require "bitrix/footer.php" ?>
+<?php require $_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php" ?>

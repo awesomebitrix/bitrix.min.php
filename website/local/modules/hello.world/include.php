@@ -1,6 +1,6 @@
 <?php
 
-var_dump("hello.world");
+var_dump("module hello.world");
 
 /*
 namespace HelloWorld;

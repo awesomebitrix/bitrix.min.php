@@ -1,3 +1,3 @@
 <?php
 
-var_dump("main");
+var_dump("mdule main");
