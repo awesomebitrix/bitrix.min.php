@@ -7,8 +7,8 @@ echo "<pre>";
 print_r($_SERVER);
 echo "</pre>";
 
-//echo "Hello World!\n\n";
-//echo rand(1, 1000) . "\n\n";
+echo "Hello World!\n\n";
+echo rand(1, 1000) . "\n\n";
 
 /*
 ?>
