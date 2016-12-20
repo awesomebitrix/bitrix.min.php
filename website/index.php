@@ -4,6 +4,16 @@
 //$APPLICATION->SetTitle("Главная");
 
 echo "<pre>";
+
+var_dump(__FILE__);
+var_dump(__DIR__);
+
+const ID = 111;
+
+define("ID_OLD", 111);
+
+var_dump("const: " . ID, "define: " . ID_OLD);
+
 print_r($_SERVER);
 echo "</pre>";
 
